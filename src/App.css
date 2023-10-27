@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=PT+Sans+Caption&family=Roboto+Slab&display=swap');
+
+body{
+  background-color: #212529;
+  /* height: 100%; */
+  /* width: 100%; */
+}
+
+
+a{
+  text-decoration: none;
+}
+
+
+/* =================================== navbar ==================================================== */
+nav {
+  /* background: linear-gradient(45deg, transparent, transparent, #caf2ff, #caf2ff, #caf2ff); */
+  /* box-shadow: 0 5px 19px black; */
+  /* background-color: red; */
+  /* border-radius: 0px 0px 30px 30px; */
+}
+
+
+nav ul li a:hover {
+  background-color: lightskyblue;
+}
+
+nav ul li a:focus {
+  background-color: white;
+}
+
+/* ====================X=============== navbar ========================X============================ */
+/* ======================================= Sidebar =================================================== */
+
+.sidebar {
+  width: 104%;
+  background-color: transparent;
+  height: 68vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-family: 'Roboto Slab', serif;
+  /* overflow: scroll; */
+}
+
+.sidebar #imgess {
+  height: 20%;
+  width: 35%;
+  background: url(components/images/My\ img2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  outline: 3px solid rgb(255, 124, 72);
+  transform: scale(1.2);
+  margin-top: 30px;
+}
+
+.sidebar .btns {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar .btns #btnz {
+  background-color: transparent;
+  margin: 10px;
+  text-decoration: none;
+  width: 70%;
+  color: lightsalmon;
+  outline: 2px solid lightsalmon;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar .btns #btnz:hover {
+  box-shadow: 2px 2px 15px lightsalmon;
+}
+
+/* ===============================X======= Sidebar ===================X=============================== */
+/* ======================================= home =================================================== */
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 88vh; */
+}
+
+.home h3 span{
+  font-family: 'PT Sans Caption', sans-serif;
+}
+
+/* ===============================X======= home ===================X=============================== */
+/* ======================================= projects =================================================== */
+
+.projects{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap ;
+}
+
+
+.projects #to-do-list{
+  height: auto;
+  width: auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 5px 8px 10px black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  transition: all 0.5s ease-in-out;
+}
+
+.projects #to-do-list:hover{
+  box-shadow: 0px 0px 10px black;
+}
+
+.projects .to-do-list-1{
+  background: url(https://c1.wallpaperflare.com/preview/339/811/597/stickies-post-it-list-business.jpg);
+}
+
+.projects .to-do-list-2{
+  background: url(https://c4.wallpaperflare.com/wallpaper/52/465/301/illustration-landscape-digital-art-mountains-wallpaper-preview.jpg);
+}
+
+.projects .to-do-list-3{
+  background: url(https://c0.wallpaperflare.com/preview/891/381/226/security-analyzing-black-close-up.jpg);
+}
+
+.projects .to-do-list-4{
+  background: url(https://c0.wallpaperflare.com/preview/364/345/243/collage-poster-advertisement-wall.jpg);
+}
+
+.projects .to-do-list-5{
+  background: url(https://c4.wallpaperflare.com/wallpaper/468/838/392/4k-artistic-5k-colors-wallpaper-preview.jpg);
+}
+
+.projects .to-do-list-6{
+  background: url(https://c4.wallpaperflare.com/wallpaper/374/404/846/brown-bird-perching-during-daytime-wren-wren-wallpaper-preview.jpg);
+}
+
+.projects .to-do-list-7{
+  background: url(https://c4.wallpaperflare.com/wallpaper/861/369/254/house-at-the-dock-with-lights-on-naples-naples-wallpaper-preview.jpg);
+}
+
+.projects .to-do-list-8{
+  background: url(https://c1.wallpaperflare.com/preview/937/818/491/stethoscope-doctor-md-medical-health-hospital.jpg);
+}
+
+.projects #to-do-list .wrapper{
+  height: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.326);
+  display: flex;
+  justify-content: space-around;
+  word-wrap: break-word;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.projects #to-do-list .wrapper #describe{
+  opacity: 0;
+  transition: all 0.6s ease-in-out;
+}
+
+
+
+.projects #to-do-list .wrapper:hover #describe{
+  opacity: 1;
+}
+
+/* ===============================X======= projects ===================X=============================== */
+/* ====================================== skills ================================================== */
+
+.studies{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.skil-bar span{
+  display: none;
+}
+
+.skil-bar:hover span{
+  display: inline-block;
+  transition: all 1s ease-in-out;
+
+}
+
+/* ===============================X======= skills ===================X=============================== */
+/* ======================================= Footer =================================================== */
+
+.footer {
+  /* background-color: rgba(173, 216, 230, 0.519); */
+  /* background: linear-gradient(45deg, transparent, transparent, transparent, #caf2ff, #caf2ff, #caf2ff); */
+  height: auto;
+}
+
+.footer h1 {
+  /* font-family: 'Dancing Script', cursive; */
+  -webkit-text-stroke: 2px #ffc107;
+  color: #ffc107;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+
+.footer h1 #brd-btm {
+  border-bottom: 3px solid #ffc107;
+}
+
+.main-footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ===============================X======= Footer ===================X=============================== */
